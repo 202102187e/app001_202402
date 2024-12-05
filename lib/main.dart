@@ -10,25 +10,15 @@ void main(List<String> args) {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             //crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Container(
-                height: 100,
-                width: 50,
-                color: Colors.red,
+              Icon(
+                Icons.all_inclusive_outlined,
+                size: 50.0,
+                color: Colors.black,
               ),
-              Container(
-                height: 100,
-                width: 50,
-                color: Colors.blue,
-              ),
-              Container(
-                height: 100,
-                width: 50,
-                color: Colors.yellow,
-              ),
-              Container(
-                height: 100,
-                width: 50,
-                color: Colors.orange,
+              Icon(
+                Icons.apple_outlined,
+                size: 50.0,
+                color: Colors.black,
               ),
             ],
           ),
