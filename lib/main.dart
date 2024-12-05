@@ -6,28 +6,28 @@ void main(List<String> args) {
       home: Scaffold(
         backgroundColor: Color.fromARGB(255, 18, 193, 59),
         body: SafeArea(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.end,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            //crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Container(
                 height: 100,
-                width: 100,
+                width: 50,
                 color: Colors.red,
               ),
               Container(
                 height: 100,
-                width: 200,
+                width: 50,
                 color: Colors.blue,
               ),
               Container(
                 height: 100,
-                width: 300,
+                width: 50,
                 color: Colors.yellow,
               ),
               Container(
                 height: 100,
-                width: 100,
+                width: 50,
                 color: Colors.orange,
               ),
             ],
