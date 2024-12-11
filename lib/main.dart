@@ -10,8 +10,8 @@ void main(List<String> args) {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                width: 300,
-                height: 300,
+                width: 200,
+                // height: 200,
                 color: Colors.redAccent,
                 child: Image.network(
                   "https://images.pexels.com/photos/29624729/pexels-photo-29624729.jpeg",
@@ -57,11 +57,21 @@ void main(List<String> args) {
               ),
               OutlinedButton(
                 onPressed: () {},
-                child: Text("Outline Button"),
+                child: Text("OutlineButton"),
+              ),
+              OutlinedButton.icon(
+                onPressed: () {},
+                label: Text("OutlineButton Icon"),
+                icon: Icon(Icons.account_box_outlined),
               ),
               TextButton(
                 onPressed: () {},
-                child: Text("Text Button"),
+                child: Text("TextButton"),
+              ),
+              TextButton.icon(
+                onPressed: () {},
+                label: Text("TextButton Icon"),
+                icon: Icon(Icons.terminal),
               ),
             ],
           ),
