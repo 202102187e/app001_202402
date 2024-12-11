@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
               // Contenido textual
-              Padding (
+              const Padding (
                 padding: const EdgeInsets.all(16.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
